@@ -1,12 +1,12 @@
 package com.lq.mycode.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 //这是一次测试的提交111
-@RestController
+@Controller
 public class DemoController {
 	@RequestMapping("/demo")
 	public String demo(){
-		return "aa";
+		return "demo";
 	}
 }
